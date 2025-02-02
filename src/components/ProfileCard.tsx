@@ -19,7 +19,7 @@ const ProfileCard = (props: ProfileCardProps) => {
                 //if ternary -> kode umum
                 // props.addr ? <p>Addr: {props.addr}</p> : null
 
-                //lebih sederhana Advance
+                //lebih sederhana Advance -> conditional rendering
                 props.addr && <p>Addr: {props.addr}</p>
 
             }
