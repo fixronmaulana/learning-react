@@ -1,7 +1,11 @@
-function Header() {
+type HeaderProps  = {
+    header: string;
+}
+
+function Header(props: HeaderProps) {
     return (
         <div>
-            <h1>Ini header</h1>
+            <h1>JUDUL: {props.header}</h1>
         </div>
     )
 }
