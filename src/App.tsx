@@ -1,6 +1,8 @@
 import Header from "./components/Header"
 import Welcome from "./components/Welcome"
 import ProfileCard from "./components/ProfileCard";
+import NavbarCard from "./components/Navbar";
+
 
 type Teacher = {
   name: string;
@@ -35,6 +37,8 @@ function App() {
     <>
       <Header header="Belajar PROPS" />
       <h1>Hello World!</h1>
+      
+     <NavbarCard />
 
       <div style={{ gap: "6px", display: "flex", flexDirection: "row" }}>
 

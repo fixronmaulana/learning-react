@@ -20,3 +20,16 @@
   color: green;
   display: inline-block;
 }
+
+
+.navbar ul {
+  border: 1px solid red;
+  list-style: none;
+  padding: 0;
+  margin-bottom:5 px;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
